@@ -22,7 +22,6 @@ body{
   display: flex;
   flex-direction:row;
   justify-content: space-around;
-
 }
 
 .flexbox1{
@@ -87,7 +86,14 @@ margin:8px 20px;
 
 .profilBILD {
   width: 35%;
+  transform: rotate(0deg);
+  transition: ease-in;
 }
+
+.profilBILD.rotate {
+  transform: rotate(180deg);
+}
+
 
 .profilBILD img {
   width: 100%;
